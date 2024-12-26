@@ -1,0 +1,10 @@
+/* Example media query for smaller screens */
+@media (max-width: 768px) {
+    body.works_on_smartphone {
+        flex-direction: column;
+    }
+
+    article, aside {
+        flex: 1; /* Equal width for smaller screens */
+    }
+}
